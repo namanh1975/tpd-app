@@ -3,7 +3,7 @@ import React from "react";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 
-import { benefitOne, benefitTwo } from "../components/data";
+import { benefitOne, benefitTwo } from "./data";
 
 const Benefits = () => {
   return (
