@@ -15,7 +15,7 @@ const Navbar = () => {
             href="/"
           >
             <span className="sr-only">Home</span>
-            <Image src={"img/logo.png"} alt="logo" width={40} height={40} />
+            <Image src={"/logo.svg"} alt="logo" width={40} height={40} />
             <div className=" px-2 font-bold text-xl text-gray-500 dark:text-white">
               TPDigital
             </div>
