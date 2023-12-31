@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <section className="flex flex-wrap">
+      <section className="flex mb-20 flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="mb-20">
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Trusted by <span className="text-yellow-600">200+</span> customers
