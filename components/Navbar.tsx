@@ -16,11 +16,12 @@ const Navbar = () => {
           >
             <span className="sr-only">Home</span>
             <Image
-              priority
-              src={"logo.svg"}
+              src={"/img/logo.png"}
+              width="40"
+              height="40"
+              className={"object-cover"}
               alt="logo"
-              width={40}
-              height={40}
+              loading="eager"
             />
             <div className=" px-2 font-bold text-xl text-gray-500 dark:text-white">
               TPDigital
