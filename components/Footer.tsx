@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/img/logo.png";
 
 const Footer = () => {
   const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
@@ -17,7 +16,7 @@ const Footer = () => {
               className="flex items-center space-x-2 text-lg font-bold text-gray-500 dark:text-white"
             >
               <Image
-                src={logo}
+                src={"logo.svg"}
                 alt="N"
                 width="32"
                 height="32"

@@ -3,8 +3,6 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 import ModeToggle from "./ModeToggle";
 
-import logo from "../public/img/logo.png";
-
 const Navbar = () => {
   const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
 
@@ -17,7 +15,13 @@ const Navbar = () => {
             href="/"
           >
             <span className="sr-only">Home</span>
-            <Image priority src={logo} alt="logo" width={40} height={40} />
+            <Image
+              priority
+              src={"logo.svg"}
+              alt="logo"
+              width={40}
+              height={40}
+            />
             <div className=" px-2 font-bold text-xl text-gray-500 dark:text-white">
               TPDigital
             </div>
